@@ -10,9 +10,9 @@ jobs:
     steps:	
       - uses: actions/checkout@v3
 
-      - name: BUILD
+      - name: Build
         run: |
-          echo "BUILDING"
+          echo "Build"
 
    - name: SonarCloud Analysis
     	 run: |
