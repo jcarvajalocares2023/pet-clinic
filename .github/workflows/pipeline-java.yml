@@ -5,14 +5,16 @@ on:
   workflow_dispatch:
 
 jobs:
+
   build:	
     runs-on: ubuntu-latest	
+    
     steps:	
       - uses: actions/checkout@v3
 
       - name: Build
         run: |
-          echo "Build"
+          echo "Building"
 
      - name: SonarCloud Analysis
       	 run: |
